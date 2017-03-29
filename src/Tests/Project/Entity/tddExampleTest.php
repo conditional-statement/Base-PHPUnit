@@ -8,14 +8,16 @@
 
 namespace Tests\Project\Entity;
 use Project\Entity\tddExample;
+
 class tddExampleTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @test
      */
-    public function testme()
+    public function sumOfNumbers()
     {
-        $tdd = new tddExample();
-        $this->assertEquals($tdd->addTwoNumbers(1,3) , 4);
+        $Class = new tddExample();
+        $this->assertEquals($Class->addition(2,2),4);
     }
+
 }

@@ -8,12 +8,9 @@
 
 namespace Project\Entity;
 
-
-
 class tddExample
 {
-   public function addTwoNumbers()
-   {
-        return 4;
-   }
+    function addition()
+    {
+    }
 }
