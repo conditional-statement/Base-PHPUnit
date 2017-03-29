@@ -28,3 +28,8 @@ You will find the following method in the class tddExampleTest.
 
 The above method is a simple test of method addition() in the class ttdExample. 
 You can find tddExample class in the file `src/Project/Entity/tddExample.php`
+
+### Testing:
+Now to test if it is failing:
+## PHPStorm
+![alt text](https://github.com/fah7eem/BaseTDD/blob/master/misc/phpstorm.gif "Run tests in PHPStorm")
