@@ -38,8 +38,8 @@ You can find tddExample class in the file `src/Project/Entity/tddExample.php`
 Now to test if it is failing:
 ## PHPStorm
     1. Right click `/src/Tests` folder.
-    2. Click `run 'Tests'.
-    3. In edit configuration click on the button `Fix`.
+    2. Click run 'Tests'.
+    3. In edit configuration click on the button Fix.
     4. Add the full path to `vendor/autoload.php` in Path to script.
     5. You will now be able to run your test.
     6. In future, click the green run/play buttonto run tests. 
