@@ -99,11 +99,11 @@ In `src/Tests/Project/Entity/tddExampleTest.php` :
 
 Create a new test.
 
-  ` /**
+     /**
      * @test
      */
     public function sumOfNumbersThreeAndFive()
     {
       $Class = new tddExample();
       $this->assertEquals($Class->addition(3,5) , 8);
-    }`
+    }
