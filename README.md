@@ -87,3 +87,23 @@ In this case the easiest way possible to pass the test `public function sumOfNum
  {
     return 4;
  }`
+
+Run phpunit in terminal or click the run button in PhpStorm.
+You will see that the test are passing.
+
+However this function will not be accurate if the numbers 3 and 5 are passed into it.
+
+For this we create another test for it.
+
+In `src/Tests/Project/Entity/tddExampleTest.php` :
+
+Create a new test.
+
+  ` /**
+     * @test
+     */
+    public function sumOfNumbersThreeAndFive()
+    {
+      $Class = new tddExample();
+      $this->assertEquals($Class->addition(3,5) , 8);
+    }`
