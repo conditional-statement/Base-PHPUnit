@@ -62,17 +62,18 @@ In `src/Tests/Project/Entity/tddExampleTest.php` :
 
 `$this->assertEquals($Class->addition(2,2),4);`
 
-The above method cll makes an assertion that the two given arguments are EQUAL to each other.
+The above method call makes an assertion that the two given arguments are __EQUAL__ to each other.
 You can pass this assertion by changing the it too:
 
 `$this->assertEquals(4,4);`
 
 If you run your test you will see that the test are passing.
+___
 
 Now change it to: `$this->assertEquals(3,4);`
 
 The test will now fail.
-
+___
 However the point of TDD is to make sure all methods that will be used in code are testable.
 
 Change this line of code back to: `$this->assertEquals($Class->addition(2,2),4);`
