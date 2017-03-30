@@ -22,7 +22,7 @@
 Open the file `src/Tests/Project/Entity/tddExampleTest.php`.
 You will find the following method in the class tddExampleTest.
 
-    ```php
+```php
     /**
     *@test
     */
@@ -31,7 +31,7 @@ You will find the following method in the class tddExampleTest.
     $Class = new tddExample();
     $this->assertEquals($Class->addition(2,2),4);
     }
-    ```
+```
 
 The above method is a simple test of method addition() in the class ttdExample. 
 You can find tddExample class in the file `src/Project/Entity/tddExample.php`
