@@ -60,6 +60,8 @@ The test should be failin as seen in the graphic examples above.
 In `src/Tests/Project/Entity/tddExampleTest.php` :
 
 `$this->assertEquals($Class->addition(2,2),4);`
+
 The above method cll makes an assertion that the two given arguments are EQUAL to each other.
 You can pass the test by changing the it too:
+
 `$this->assertEquals(4,4);`
