@@ -52,3 +52,14 @@ Now to test if it is failing:
 `Run the command phpunit in the root of the repository.`
 
 ![alt text](https://github.com/fah7eem/BaseTDD/blob/master/misc/phpcmd.png "phpunit tests in cmd")
+
+The test should be failin as seen in the graphic examples above.
+
+## Passing the test.
+
+In `src/Tests/Project/Entity/tddExampleTest.php` :
+
+`$this->assertEquals($Class->addition(2,2),4);`
+The above method cll makes an assertion that the two given arguments are EQUAL to each other.
+You can pass the test by changing the it too:
+`$this->assertEquals(4,4);`
