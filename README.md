@@ -51,7 +51,8 @@ Now to test if it is failing:
 `Run the command phpunit in the root of the repository.`
 
 ![alt text](misc/phpcmd.png "phpunit tests in cmd")
-The test should be failin as seen in the graphic examples above.
+
+The test should be failing as seen in the graphic examples above.
 
 ## Passing the test.
 
