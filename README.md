@@ -133,3 +133,5 @@ function addition($firstNumber, $secondNumber)
     return $firstNumber + $secondNumber;
  }
  ```
+
+Run your test and you should see two test and two assertions would have passed.
