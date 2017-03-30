@@ -61,6 +61,7 @@ The test should be failin as seen in the graphic examples above.
 In `src/Tests/Project/Entity/tddExampleTest.php` :
 
 `$this->assertEquals($Class->addition(2,2),4);`
+___
 
 The above method call makes an assertion that the two given arguments are __EQUAL__ to each other.
 You can pass this assertion by changing the it too:
@@ -78,4 +79,4 @@ However the point of TDD is to make sure all methods that will be used in code a
 
 Change this line of code back to: `$this->assertEquals($Class->addition(2,2),4);`
 
-##
+## Making the test past the in the easiest possible way.
