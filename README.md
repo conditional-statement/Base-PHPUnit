@@ -121,6 +121,9 @@ In PhpStorm you can actually click on  `<Click to see difference>` and view the 
 So we have come to the point where the simplest possible is actually to return the sum of the two numbers:
 
 `function addition($firstNumber, $secondNumber)
+
  {
+ 
     return $firstNumber + $secondNumber;
+    
  }`
