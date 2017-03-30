@@ -15,7 +15,7 @@
 
 ## Set up:
 * Install [PHPUnit](https://phpunit.de/getting-started.html)
-* Composer Install in root folder.
+* [Composer](https://getcomposer.org/doc/00-intro.md) Install in root folder.
 
 ### Looking at the test file:
 
