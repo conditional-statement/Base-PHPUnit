@@ -80,8 +80,10 @@ Change this line of code back to: `$this->assertEquals($Class->addition(2,2),4);
 
 ## Making the test past in the easiest possible way.
 
+___Being the evil programmer__
+
 Whenever attempting to make a test pass, try do so in the most convenient way as possible.
-In this case the easiest way possible to pass the test `public function sumOfNumbers()` is to return the number four in the method it is testing i.e  `addition()` in the class `tddExample` in the folder `src/Project/Entity/tddExample.php`.
+In this case the easiest way possible to pass the test `public function sumOfNumbers()` is to return the number four in the method it is testing i.e  `addition()` in the class `tddExample` in the folder `src/Project/Entity/tddExample.php`. This is referred to being the evil programmer: using as little energy and passing the test as ___lazily___ as possible.
 
  `function addition()
  {
@@ -107,3 +109,18 @@ Create a new test.
       $Class = new tddExample();
       $this->assertEquals($Class->addition(3,5) , 8);
     }
+
+If you run your test you will see that a test has failed. You will get a message simalar to this:
+
+___Failed asserting that 8 matches expected 4.___
+
+In PhpStorm you can actually click on  `<Click to see difference>` and view the expected result and the actual result.
+
+## Doing the work
+
+So we have come to the point where the simplest possible is actually to return the sum of the two numbers:
+
+`function addition($firstNumber, $secondNumber)
+ {
+    return $firstNumber + $secondNumber;
+ }`
