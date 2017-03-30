@@ -81,4 +81,9 @@ Change this line of code back to: `$this->assertEquals($Class->addition(2,2),4);
 ## Making the test past in the easiest possible way.
 
 Whenever attempting to make a test pass, try do so in the most convenient way as possible.
-In this case the easiest way possible to pass the test `public function sumOfNumbers()` is to return the number four in the method it is testing i.e  `addition()` in `src/Tests/Project/Entity/tddExampleTest.php`.
+In this case the easiest way possible to pass the test `public function sumOfNumbers()` is to return the number four in the method it is testing i.e  `addition()` in the class `tddExample` in the folder `src/Project/Entity/tddExample.php`.
+
+ `function addition()
+    {
+        return 4;
+    }`
