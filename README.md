@@ -22,14 +22,16 @@
 Open the file `src/Tests/Project/Entity/tddExampleTest.php`.
 You will find the following method in the class tddExampleTest.
 
-    `/**
+    ```php
+    /**
     *@test
     */
     public function sumOfNumbers()
     {
     $Class = new tddExample();
     $this->assertEquals($Class->addition(2,2),4);
-    }`
+    }
+    ```
 
 The above method is a simple test of method addition() in the class ttdExample. 
 You can find tddExample class in the file `src/Project/Entity/tddExample.php`
@@ -85,10 +87,12 @@ ___Being the evil programmer__
 Whenever attempting to make a test pass, try do so in the most convenient way as possible.
 In this case the easiest way possible to pass the test `public function sumOfNumbers()` is to return the number four in the method it is testing i.e  `addition()` in the class `tddExample` in the folder `src/Project/Entity/tddExample.php`. This is referred to being the evil programmer: using as little energy and passing the test as ___lazily___ as possible.
 
- `function addition()
+ ```php
+ function addition()
  {
     return 4;
- }`
+ }
+ ```
 
 Run phpunit in terminal or click the run button in PhpStorm.
 You will see that the test are passing.
@@ -101,6 +105,7 @@ In `src/Tests/Project/Entity/tddExampleTest.php` :
 
 Create a new test.
 
+```php
      /**
      * @test
      */
@@ -109,6 +114,7 @@ Create a new test.
       $Class = new tddExample();
       $this->assertEquals($Class->addition(3,5) , 8);
     }
+```
 
 If you run your test you will see that a test has failed. You will get a message simalar to this:
 
