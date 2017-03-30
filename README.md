@@ -44,14 +44,12 @@ Now to test if it is failing:
     5. You will now be able to run your test.
     6. In future, click the green run/play button to run tests. 
     
-![alt text](https://github.com/fah7eem/BaseTDD/blob/master/misc/phpstorm.gif "Run tests in PHPStorm")
 ![alt text](misc/phpstorm.gif "Run tests in PHPStorm")
 ### OR
 
 ### Command Line
 `Run the command phpunit in the root of the repository.`
 
-![alt text](https://github.com/fah7eem/BaseTDD/blob/master/misc/phpcmd.png "phpunit tests in cmd")
 ![alt text](misc/phpcmd.png "phpunit tests in cmd")
 The test should be failin as seen in the graphic examples above.
 
