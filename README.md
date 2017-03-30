@@ -42,7 +42,7 @@ Now to test if it is failing:
     3. In edit configuration click on the button Fix.
     4. Add the full path to `vendor/autoload.php` in Path to script.
     5. You will now be able to run your test.
-    6. In future, click the green run/play buttonto run tests. 
+    6. In future, click the green run/play button to run tests. 
     
 ![alt text](https://github.com/fah7eem/BaseTDD/blob/master/misc/phpstorm.gif "Run tests in PHPStorm")
 
