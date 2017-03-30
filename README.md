@@ -68,7 +68,7 @@ You can pass this assertion by changing the it too:
 
 `$this->assertEquals(4,4);`
 
-If you run your test you will see that the test are passing.
+If you run your test you will see that the test has passed.
 ___
 
 Now change it to: `$this->assertEquals(3,4);`
@@ -79,4 +79,6 @@ However the point of TDD is to make sure all methods that will be used in code a
 
 Change this line of code back to: `$this->assertEquals($Class->addition(2,2),4);`
 
-## Making the test past the in the easiest possible way.
+## Making the test past in the easiest possible way.
+
+
