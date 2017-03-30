@@ -47,6 +47,7 @@ Now to test if it is failing:
 ![alt text](https://github.com/fah7eem/BaseTDD/blob/master/misc/phpstorm.gif "Run tests in PHPStorm")
 
 ##OR
- ##Command Line
- `Run the command phpunit in the root of the repository.`
+
+## Command Line
+`Run the command phpunit in the root of the repository.`
 ![alt text](https://github.com/fah7eem/BaseTDD/blob/master/misc/phpcmd.png "phpunit tests in cmd")
