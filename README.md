@@ -13,7 +13,7 @@
 * Basic knowledge of PHP OOP is a must.
 * Having PHPStorm IDE will be a bonus.
 
-### Set up:
+## Set up:
 * Install [PHPUnit](https://phpunit.de/getting-started.html)
 * Composer Install in root folder.
 
@@ -34,9 +34,9 @@ You will find the following method in the class tddExampleTest.
 The above method is a simple test of method addition() in the class ttdExample. 
 You can find tddExample class in the file `src/Project/Entity/tddExample.php`
 
-### Testing:
+## Testing:
 Now to test if it is failing:
-## PHPStorm
+### PHPStorm
     1. Right click `/src/Tests` folder.
     2. Click run 'Tests'.
     3. In edit configuration click on the button Fix.
@@ -46,9 +46,9 @@ Now to test if it is failing:
     
 ![alt text](https://github.com/fah7eem/BaseTDD/blob/master/misc/phpstorm.gif "Run tests in PHPStorm")
 
-##OR
+### OR
 
-## Command Line
+### Command Line
 `Run the command phpunit in the root of the repository.`
 
 ![alt text](https://github.com/fah7eem/BaseTDD/blob/master/misc/phpcmd.png "phpunit tests in cmd")
