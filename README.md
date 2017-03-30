@@ -84,6 +84,6 @@ Whenever attempting to make a test pass, try do so in the most convenient way as
 In this case the easiest way possible to pass the test `public function sumOfNumbers()` is to return the number four in the method it is testing i.e  `addition()` in the class `tddExample` in the folder `src/Project/Entity/tddExample.php`.
 
  `function addition()
-    {
-        return 4;
-    }`
+ {
+    return 4;
+ }`
