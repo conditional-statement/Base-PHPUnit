@@ -65,7 +65,7 @@ In `src/Tests/Project/Entity/tddExampleTest.php` :
 ___
 
 The above method call makes an assertion that the two given arguments are __EQUAL__ to each other.
-You can pass this assertion by changing the it too:
+You can pass this assertion by changing it too:
 
 `$this->assertEquals(4,4);`
 
@@ -82,7 +82,7 @@ Change this line of code back to: `$this->assertEquals($Class->addition(2,2),4);
 
 ## Making the test past in the easiest possible way.
 
-___Being the evil programmer__
+__Being the evil programmer__
 
 Whenever attempting to make a test pass, try do so in the most convenient way as possible.
 In this case the easiest way possible to pass the test `public function sumOfNumbers()` is to return the number four in the method it is testing i.e  `addition()` in the class `tddExample` in the folder `src/Project/Entity/tddExample.php`. This is referred to being the evil programmer: using as little energy and passing the test as ___lazily___ as possible.
