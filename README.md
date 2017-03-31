@@ -136,10 +136,26 @@ function addition($firstNumber, $secondNumber)
 
 Run your test and you should see two test and two assertions would have passed.
 
-Specifications will dictate how many test are needed. What if addition could take in an array that should be added?
+Specifications will dictate how many test are needed. What if addition could take in any amount of parameters that should be added?
 
-`$Class->addition([1,2,3,4])`
+`$this->assertEquals($Class->addition(3, 5, 2)`
 
+OR
+
+`$this->assertEquals($Class->addition(3, 5, 2, 8)`
+
+__The Test:__
+
+```php
+    /**
+     * @test
+     */
+    public function sumOfNumbersThreeAndFiveAndTwo()
+    {
+        $Class = new tddExample();
+        $this->assertEquals($Class->addition(3, 5, 2) , 10);
+    }
+```
 
 #### Links:
 
