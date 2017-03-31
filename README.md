@@ -140,3 +140,7 @@ Specifications will dictate how many test are needed. What if addition could tak
 
 `$Class->addition([1,2,3,4])`
 
+
+#### Links:
+
+* TDD Kata from [osherove.com](http://osherove.com/tdd-kata-2/)
