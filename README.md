@@ -160,12 +160,13 @@ __The Test:__
 Run the testand you should see one test failing.
 
 __The Solution__
+
 ```php
    function addition(...$Params)
     {
         return array_sum($Params);
     }
-    ```
+```
 This is a very simple example but as you can see that even fundamental changes that can be made 10 years down the line, you will have the peace of mind knowing that previous specifications won't be altered in unwanted ways.
 
 __When to stop:__
