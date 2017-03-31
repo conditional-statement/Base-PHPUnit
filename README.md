@@ -135,3 +135,8 @@ function addition($firstNumber, $secondNumber)
  ```
 
 Run your test and you should see two test and two assertions would have passed.
+
+Specifications will dictate how many test are needed. What if addition could take in an array that should be added?
+
+`$Class->addition([1,2,3,4])`
+
