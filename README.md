@@ -181,7 +181,7 @@ __When to stop:__
     }
 ```
 
-If you right a test and it passes without having to make it pass, this test is invalid. Just take out and move on :-).
+If you write a test and it passes without having to make it pass, this test is invalid. Just take out and move on :-).
 #### Links:
 
 * TDD Kata from [osherove.com](http://osherove.com/tdd-kata-2/)
