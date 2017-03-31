@@ -136,7 +136,7 @@ function addition($firstNumber, $secondNumber)
 
 Run your test and you should see two test and two assertions would have passed.
 
-Specifications will dictate how many test are needed. What if addition could take in any amount of parameters that should be added?
+Specifications will dictate how many test are needed. What if the specifications of addition changes 10 years down the line to take in any amount of parameters that will be added?
 
 `$this->assertEquals($Class->addition(3, 5, 2)`
 
@@ -157,6 +157,31 @@ __The Test:__
     }
 ```
 
+Run the testand you should see one test failing.
+
+__The Solution__
+```php
+   function addition(...$Params)
+    {
+        return array_sum($Params);
+    }
+    ```
+This is a very simple example but as you can see that even fundamental changes that can be made 10 years down the line, you will have the peace of mind knowing that previous specifications won't be altered in unwanted ways.
+
+__When to stop:__
+
+```php
+    /**
+     * @test
+     */
+    public function sumOfNumbersThreeAndFiveAndTwo()
+    {
+        $Class = new tddExample();
+        $this->assertEquals($Class->addition(3, 5, 2, 8) , 18);
+    }
+```
+
+If you right a test and it passes without having to make it pass, this test is invalid. Just take out and move on :-).
 #### Links:
 
 * TDD Kata from [osherove.com](http://osherove.com/tdd-kata-2/)
