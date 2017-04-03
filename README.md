@@ -187,3 +187,4 @@ If you write a test and it passes without having to make it pass, this test is i
 ## Try Out:
 
 * TDD Kata from [osherove.com](http://osherove.com/tdd-kata-2/)
+* Learn how to mock classes from [culttt.com](http://culttt.com/2013/07/22/getting-started-with-mockery/)
