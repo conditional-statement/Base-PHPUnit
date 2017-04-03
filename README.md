@@ -188,6 +188,6 @@ If you write a test and it passes without having to make it pass, this test is i
 
 * TDD Kata from [osherove.com](http://osherove.com/tdd-kata-2/)
 * Learn how to mock classes from [culttt.com](http://culttt.com/2013/07/22/getting-started-with-mockery/)
-* Cool TDD tutorial with [tutsplus.com] (https://code.tutsplus.com/tutorials/lets-tdd-a-simple-app-in-php--net-26186)
+* Cool TDD tutorial with [tutsplus.com](https://code.tutsplus.com/tutorials/lets-tdd-a-simple-app-in-php--net-26186)
 * My Experience with Test-Driven Development By Vinay Krishna at [agileconnection.com](https://www.agileconnection.com/article/my-experience-test-driven-development?page=0%2C1)
 
