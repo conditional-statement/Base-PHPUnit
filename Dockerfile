@@ -5,4 +5,4 @@ FROM ubuntu:16.04
 RUN apt-get update
 
 # Install nginx, php-fpm and supervisord from ubuntu repository
-RUN apt-get install -y php5.4 
+RUN apt-get install -y php5.4 && 
