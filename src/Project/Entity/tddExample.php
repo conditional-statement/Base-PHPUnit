@@ -12,5 +12,6 @@ class tddExample
 {
     function addition()
     {
+        return 5;
     }
 }
